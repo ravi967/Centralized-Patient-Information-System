@@ -1,0 +1,22 @@
+.thumb
+{
+	background-image:url(../images/insurance1.png);
+	height:650px;
+	width: 100%;
+	padding: 60px;
+}
+.thumb b
+{
+	font-size: 40px;
+    color: #266985;
+    font-family: inherit;
+}
+.thumb span
+{
+	font-size: 20px;
+}
+a
+{
+	text-decoration-line: none;
+	color: white;
+}

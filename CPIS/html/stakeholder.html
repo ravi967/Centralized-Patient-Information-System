@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>stakeholder</title>
+
+	<style type="text/css">
+		ul
+		{
+		  float:left;
+		  list-style-type: none;
+		}
+		a
+		{
+		  text-decoration: none;
+		  color: black;
+		}
+		li a:hover,h5 b:hover
+		{
+		  text-decoration: none;
+		  color:white;
+		}
+		.col-md-5,.col-md-2,.col-md-3
+		{
+		  margin-top: 15px;
+		}
+		h5
+		{
+		  font-size: medium;
+		}
+		h6
+		{
+		  color: black;
+		}
+		h6:hover
+		{
+		  color: white;
+		}
+  
+		.col-md-3:hover
+		{
+		  background-color: skyblue;
+		  transition-duration: 0.5s;
+		  transform: scale(1.1); 
+		  border-radius: 50px;
+		  box-shadow: 0 10px 6px -6px black;
+  
+		}
+	  </style>
+  
+  <script type="text/javascript" src="../js/time.js"></script>
+
+</head>
+
+<body onload="displayTime();">
+	<!--for bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+  <!--for doctor css-->
+  <link rel="stylesheet" type="text/css" href="../css/stakeholder.css">
+
+  <!-- ............................................  Header-Section starts here  ...................................... -->
+
+<?php
+include ('../includes/headerNew.php') ;
+?>
+
+
+<!-- ..................................................  Header-section closes here  ................................... -->
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="thumb">
+			 <b>Your Health Insurance Specialist</b><br/>
+           	 <span>Health plans crafted with care for your loved once</span><br/><br/><br/><br/><br/><br/><br/><br/>
+           	 <form class="navbar-form" >
+ 				<div class="form-group">
+    			  	<button type="submit" class="btn btn-info" ><a href="../html/insurancebuy.html"> I WANT TO BUY</a></button>
+    			  	<button type="submit" class="btn btn-info">I WANT TO RENEW</button>
+  				</div>
+                 	
+			</form>
+		   </div><!-- for thumb-->
+  		</div><!--col-md-12-->
+  	</div><!--for row-->
+  </div><!--for container-->
+
+
+  <link rel="stylesheet" type="text/css" href="css/footer.css"  />
+    
+    <!-- .................................  Footer-section starts here  .............................................. -->
+
+  <?php
+  include ('../includes/footer.php') ;
+?>
+
+  <!-- ..........................................  Footer-section ends here  ...................................... -->
+
+</body>
+</html>
